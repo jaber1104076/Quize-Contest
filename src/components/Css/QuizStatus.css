@@ -1,0 +1,16 @@
+.quizestatus {
+    margin: 30px 200px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: blue;
+    padding: 10px 12px;
+}
+
+.overall {
+    border: 3px solid lightgoldenrodyellow;
+    margin: 30px 100px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+}

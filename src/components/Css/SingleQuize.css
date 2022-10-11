@@ -1,0 +1,36 @@
+.quize {
+    border: 2px solid gray;
+    box-shadow: 2px 2px 4px lightblue;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    background-color: #ff9ff3;
+}
+
+.quize img {
+    width: 430px;
+    height: 300px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    color: royalblue;
+}
+
+button {
+    background-color: royalblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+}
