@@ -8,7 +8,7 @@ const QuizeExam = () => {
     const quizes = quizesData.data.questions;
     //console.log(quizes)
     return (
-        <div>
+        <div className='mt-12'>
             <h3 className='text-center text-3xl text-cyan-700'>Grow your skills, be Confident</h3>
             <div className='quizeexam'>
                 {

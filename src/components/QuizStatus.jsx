@@ -22,7 +22,7 @@ const QuizStatus = ({ quize }) => {
     return (
         <section className='overall'>
             <div className='quizestatus'>
-                <h4>{question}</h4>
+                <h4>Quetion :{question}</h4>
             </div>
             <p ><span onClick={() => handleIcon(id)}><EyeSlashIcon className="h-6 w-6 ml-52 text-cyan-500" /></span></p>
             <div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import SingleQuize from "./SingleQuize";
-import './Css/Header.css'
+import './Css/Header.css';
 import { toast } from "react-toastify";
 
 const Home = () => {

@@ -26,7 +26,7 @@ const Statistics = () => {
         }
     ]
     return (
-        <div className='ml-12'>
+        <div className='ml-12 mt-32 mb-8'>
             <LineChart
                 width={500}
                 height={500}

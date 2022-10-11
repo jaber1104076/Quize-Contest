@@ -4,3 +4,28 @@
     text-align: center;
     margin-left: 300px;
 }
+
+@media only screen and (max-width: 600px) {
+    .option {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .option {
+        display: grid;
+        grid-column: 1fr;
+        margin-right: 500px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .option {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        margin-right: 400px;
+    }
+}
