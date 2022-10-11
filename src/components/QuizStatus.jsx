@@ -6,10 +6,10 @@ import { toast } from 'react-toastify';
 
 const QuizStatus = ({ quize }) => {
     const { options, question, correctAnswer, id } = quize;
-    //console.log(quize);
+    console.log(quize);
 
     const handleIcon = (id) => {
-        toast(`${correctAnswer}`, { autoClose: 1000 })
+        // toast(`${correctAnswer}`, { autoClose: 1000 })
     }
     const handleCorrectAnswer = (option) => {
         if (option === correctAnswer) {
@@ -29,7 +29,6 @@ const QuizStatus = ({ quize }) => {
                 {
                     options.map(option => <Options
                         option={option}
-                        id={id}
                         handleCorrectAnswer={handleCorrectAnswer}
                     ></Options>)
                 }

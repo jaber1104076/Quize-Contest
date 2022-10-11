@@ -1,7 +1,7 @@
 import React from 'react';
 import './Css/Options.css';
 
-const Options = ({ option, handleCorrectAnswer, id }) => {
+const Options = ({ option, handleCorrectAnswer }) => {
     return (
         <div>
             <div className='option'>
