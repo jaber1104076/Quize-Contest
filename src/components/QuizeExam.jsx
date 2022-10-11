@@ -6,7 +6,7 @@ import './Css/QuizeExam.css';
 const QuizeExam = () => {
     const quizesData = useLoaderData()
     const quizes = quizesData.data.questions;
-    console.log(quizes)
+    //console.log(quizes)
     return (
         <div>
             <h3 className='text-center text-3xl text-cyan-700'>Grow your skills, be Confident</h3>

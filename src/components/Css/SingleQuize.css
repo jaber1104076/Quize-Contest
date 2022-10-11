@@ -6,7 +6,7 @@
     border-radius: 10px;
     width: 500px;
     height: 400px;
-    background-color: #ff9ff3;
+    background-color: #2C3A47;
 }
 
 .quize img {
@@ -18,11 +18,12 @@
 .info {
     display: flex;
     justify-content: space-around;
-    color: royalblue;
+    color: white;
+    font-size: 17px;
 }
 
 button {
-    background-color: royalblue;
+    background-color: #01a3a4;
     padding: 10px 15px;
     border-radius: 5px;
     color: white;
@@ -32,5 +33,5 @@ button {
 }
 
 button:hover {
-    background-color: lightseagreen;
+    background-color: #10e2e2;
 }
