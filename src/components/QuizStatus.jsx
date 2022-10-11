@@ -9,7 +9,7 @@ const QuizStatus = ({ quize }) => {
     console.log(quize);
 
     const handleIcon = (id) => {
-        // toast(`${correctAnswer}`, { autoClose: 1000 })
+        toast(`${correctAnswer}`, { autoClose: 1000 })
     }
     const handleCorrectAnswer = (option) => {
         if (option === correctAnswer) {
