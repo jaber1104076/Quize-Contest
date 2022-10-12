@@ -9,7 +9,7 @@ const SingleQuize = ({ quize, handleTest }) => {
             <img src={logo} alt="" />
             <div className='info'>
                 <h4>Name : {name} </h4>
-                <p>total quize : {total}</p>
+                <p>Total Quize : {total}</p>
             </div>
             <Link preventScrollReset={true} to={`quize/${id}`}><button onClick={() => handleTest()}>Take the Test</button></Link>
         </div>

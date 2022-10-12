@@ -18,7 +18,7 @@ const Header = () => {
             Quize Contest
           </span>
         </Link>
-        <ul className='flex items-center hidden space-x-8 lg:flex'>
+        <ul className='.flex items-center hidden space-x-8 lg:flex'>
           <li>
             <Link
               to='/'
