@@ -4,7 +4,7 @@ A Quize application platform where a student can test themself by taking multipl
 
 
 ## Live Link
-Hosted in Netlify -> [Quize application](https://shome-shop.netlify.app/)
+Hosted in Netlify -> [Quize application](https://moonlit-gelato-cbe920.netlify.app/)
 
 ## React Router Dom v6.4 
 Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
