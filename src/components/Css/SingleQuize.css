@@ -1,5 +1,6 @@
 .quize {
     box-shadow: 4px 4px 6px gray;
+    border: 1px solid lightskyblue;
     margin: 30px;
     padding: 10px;
     border-radius: 10px;

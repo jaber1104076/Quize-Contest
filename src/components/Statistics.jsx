@@ -5,23 +5,23 @@ const Statistics = () => {
     const data = [
         {
             name: "React",
-            marks: 4000,
+            total: 8,
             top: 2400
         },
         {
             name: "Javacripts",
-            marks: 3000,
+            total: 9,
             top: 1398
         },
         {
             name: "Html",
-            marks: 2000,
+            total: 8,
             top: 9800
 
         },
         {
             name: "CSS",
-            marks: 2000,
+            total: 11,
             top: 9800
         }
     ]
@@ -36,7 +36,7 @@ const Statistics = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="marks" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                 <Line type="monotone" dataKey="top" stroke="#8884d8" activeDot={{ r: 8 }} />
             </LineChart>
         </div>
