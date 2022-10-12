@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.quize-head2 {
+    font-size: 30px;
+    color: darkblue;
+}
+
 @media only screen and (max-width: 688px) {
     body {
         margin: 0;
@@ -24,6 +29,10 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    .quize-head2 {
+        margin-left: 250px;
+    }
 }
 
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -32,5 +41,9 @@
         margin-top: 100px;
         margin-bottom: 50px;
         margin-left: 300px;
+    }
+
+    .quize-head2 {
+        margin-left: 50px;
     }
 }

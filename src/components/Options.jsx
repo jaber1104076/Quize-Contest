@@ -5,7 +5,7 @@ const Options = ({ option, handleCorrectAnswer }) => {
     return (
         <div>
             <div className='option'>
-                <button onClick={() => handleCorrectAnswer(option)}>{option}</button>
+                <button className='btn-answer' onClick={() => handleCorrectAnswer(option)}>{option}</button>
             </div>
         </div>
     );

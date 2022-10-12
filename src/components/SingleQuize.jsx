@@ -11,7 +11,7 @@ const SingleQuize = ({ quize, handleTest }) => {
                 <h4>Name : {name} </h4>
                 <p>Total Quize : {total}</p>
             </div>
-            <Link preventScrollReset={true} to={`quize/${id}`}><button onClick={() => handleTest()}>Take the Test</button></Link>
+            <Link preventScrollReset={true} to={`quize/${id}`}><button className="btn-quize" onClick={() => handleTest()}>Take the Test</button></Link>
         </div>
     );
 };

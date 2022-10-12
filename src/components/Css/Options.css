@@ -5,6 +5,15 @@
     margin-left: 300px;
 }
 
+.btn-answer {
+    background-color: #01a3a4;
+    margin: 10px 200px;
+    padding: 10px 15px;
+    width: 380px;
+    border-radius: 10px;
+
+}
+
 @media only screen and (max-width: 600px) {
     .option {
         display: grid;
