@@ -6,10 +6,14 @@ import './Css/QuizeExam.css';
 const QuizeExam = () => {
     const quizesData = useLoaderData()
     const quizes = quizesData.data.questions;
-    //console.log(quizes)
+    const quizeName = quizesData.data.name;
+    // console.log(quizes)
     return (
         <div className='mt-12'>
-            <h3 className='text-center text-3xl text-cyan-700'>Grow your skills, be Confident</h3>
+            <div className='quizehead'>
+                <h3 className='text-3xl text-cyan-400'>Grow your skills, be Confident</h3>
+                <h1 className='text-4xl text-green-800 bold font-bold'>Quize of : {quizeName}</h1>
+            </div>
             <div className='quizeexam'>
                 {
                     quizes.map(quize => <QuizStatus

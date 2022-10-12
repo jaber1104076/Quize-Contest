@@ -7,6 +7,7 @@ import { Blog } from './components/Blog';
 import Home from './components/Home';
 import QuizeExam from './components/QuizeExam';
 import Statistics from './components/Statistics';
+import Topics from './components/Topics';
 
 function App() {
   const router = createBrowserRouter([
@@ -35,6 +36,10 @@ function App() {
         {
           path: '/state',
           element: <Statistics></Statistics>
+        },
+        {
+          path: '/topics',
+          element: <Topics></Topics>
         }
       ]
     }

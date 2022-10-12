@@ -6,9 +6,9 @@ import { toast } from 'react-toastify';
 
 const QuizStatus = ({ quize }) => {
     const { options, question, correctAnswer, id } = quize;
-    console.log(quize);
+    //console.log(quize);
 
-    const handleIcon = (id) => {
+    const handleIcon = () => {
         toast(`${correctAnswer}`, { autoClose: 1000 })
     }
     const handleCorrectAnswer = (option) => {
@@ -23,12 +23,14 @@ const QuizStatus = ({ quize }) => {
         <section className='overall'>
             <div className='quizestatus'>
                 <h4>Quetion :{question}</h4>
+                <div className='icon'><span onClick={() => handleIcon(id)}><EyeSlashIcon className="h-6 w-6 mt-4  text-cyan-500" /></span></div>
             </div>
-            <p ><span onClick={() => handleIcon(id)}><EyeSlashIcon className="h-6 w-6 ml-52 text-cyan-500" /></span></p>
+            {/* <div className='icon'><span onClick={() => handleIcon(id)}><EyeSlashIcon className="h-6 w-6  text-cyan-500" /></span></div> */}
             <div>
                 {
-                    options.map(option => <Options
+                    options.map((option, idx) => <Options
                         option={option}
+                        key={idx}
                         handleCorrectAnswer={handleCorrectAnswer}
                     ></Options>)
                 }

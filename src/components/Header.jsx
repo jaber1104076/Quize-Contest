@@ -31,6 +31,16 @@ const Header = () => {
           </li>
           <li>
             <Link
+              to='/topics'
+              aria-label='Home'
+              title='Home'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+            >
+              Topics
+            </Link>
+          </li>
+          <li>
+            <Link
               to='/state'
               aria-label='Cart'
               title='Cart'
@@ -117,8 +127,8 @@ const Header = () => {
                     <li>
                       <Link
                         to='/'
-                        aria-label='Shop'
-                        title='Shop'
+                        aria-label='home'
+                        title='home'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                         Home
@@ -126,9 +136,19 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
+                        to='/topics'
+                        aria-label='home'
+                        title='home'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                      >
+                        Topics
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
                         to='/state'
-                        aria-label='Cart'
-                        title='Cart'
+                        aria-label='state'
+                        title='state'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                         <p>Statistics</p>
